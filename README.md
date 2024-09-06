@@ -1,6 +1,7 @@
 # MindRove EEG Quiz
 
-MindRove EEG Quiz is an interactive Brain-Computer Interface (BCI) quiz game that requires a MindRove Arc device (MindRove Arc) to operate.
+
+MindRove EEG Quiz is an interactive Brain-Computer Interface (BCI) quiz game that requires a MindRove Arc device to operate.
 
 To begin, connect to the MindRove Arc via WiFi. Once connected, you'll see real-time EEG data displayed on your screen. This data is processed using a third-order, high-pass Butterworth filter and is normalized with the running absolute average of the collected data. Please note that no data is stored; it is used exclusively during your active session.
 
