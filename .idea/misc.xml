@@ -1,0 +1,33 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MindRover/app/src/main/res/drawable/ic_arrow_circle_left.xml" value="0.242" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MindRover/app/src/main/res/drawable/ic_arrow_circle_right.xml" value="0.242" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MindRover/app/src/main/res/drawable/ic_cancel.xml" value="0.242" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MindRover/app/src/main/res/drawable/ic_connect.xml" value="0.242" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MindRover/app/src/main/res/drawable/ic_nav_impedance.xml" value="0.2205" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MindRover/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MindRover/app/src/main/res/layout/channel_item.xml" value="0.22056159420289856" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MindRover/app/src/main/res/layout/fragment_connection.xml" value="0.21354166666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MindRover/app/src/main/res/layout/fragment_eeg_signal.xml" value="0.21354166666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MindRover/app/src/main/res/layout/fragment_game.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MindRover/app/src/main/res/layout/fragment_impedance_checker.xml" value="0.21354166666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MindRover/app/src/main/res/layout/fragment_item.xml" value="0.21354166666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MindRover/app/src/main/res/layout/fragment_item_list.xml" value="0.19947916666666668" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MindRover/app/src/main/res/layout/fragment_test.xml" value="0.19947916666666668" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MindRover/app/src/main/res/layout/fragment_train.xml" value="0.26458333333333334" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MindRover/app/src/main/res/layout/fragment_train_home.xml" value="0.26458333333333334" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MindRover/app/src/main/res/layout/impedance_checker_fragment.xml" value="0.21354166666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MindRover/app/src/main/res/layout/impedance_item.xml" value="0.26458333333333334" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MindRover/app/src/main/res/menu/bottom_nav.xml" value="0.4041666666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+<!--    <item-->
+<!--        android:id="@+id/impedanceCheckerFragment"-->
+<!--        android:icon="@drawable/ic_nav_impedance"-->
+<!--        android:title="@string/connect_label" />-->
+    <item
+        android:id="@+id/eegSignalFragment"
+        android:icon="@drawable/ic_nav_eeg"
+        android:title="@string/eeg_label" />
+    <item
+        android:id="@+id/trainHomeFragment"
+        android:icon="@drawable/ic_nav_training"
+        android:title="@string/training_label" />
+
+    <item
+        android:id="@+id/gameStarterFragment"
+        android:icon="@drawable/ic_nav_game"
+        android:title="@string/game_label" />
+</menu>

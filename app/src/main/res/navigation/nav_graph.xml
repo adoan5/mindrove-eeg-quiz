@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/connectionFragment">
+    <fragment
+        android:id="@+id/connectionFragment"
+        android:name="com.adoan.mindrover.ConnectionFragment"
+        android:label="fragment_connection"
+        tools:layout="@layout/fragment_connection" >
+        <action
+            android:id="@+id/action_connectionFragment_to_eegSignalFragment"
+            app:destination="@id/eegSignalFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/testFragment"
+        android:name="com.adoan.mindrover.TestFragment"
+        android:label="fragment_test"
+        tools:layout="@layout/fragment_test" />
+    <fragment
+        android:id="@+id/trainingNetworkFragment"
+        android:name="com.adoan.mindrover.TrainingNetworkFragment"
+        android:label="fragment_training_network"
+        tools:layout="@layout/fragment_training_network" >
+        <action
+            android:id="@+id/action_trainingNetworkFragment_to_trainHomeFragment"
+            app:destination="@id/trainHomeFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@android:anim/fade_in" />
+    </fragment>
+    <fragment
+        android:id="@+id/eegSignalFragment"
+        android:name="com.adoan.mindrover.EegSignalFragment"
+        android:label="fragment_eeg_signal"
+        tools:layout="@layout/fragment_eeg_signal" />
+    <fragment
+        android:id="@+id/trainHomeFragment"
+        android:name="com.adoan.mindrover.TrainHomeFragment"
+        android:label="fragment_train_home"
+        tools:layout="@layout/fragment_train_home" >
+        <action
+            android:id="@+id/action_trainHomeFragment_to_trainFragment"
+            app:destination="@id/trainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/trainFragment"
+        android:name="com.adoan.mindrover.TrainFragment"
+        android:label="fragment_train"
+        tools:layout="@layout/fragment_train" >
+        <action
+            android:id="@+id/action_trainFragment_to_trainHomeFragment"
+            app:destination="@id/trainHomeFragment" />
+        <action
+            android:id="@+id/action_trainFragment_to_trainingNetworkFragment"
+            app:destination="@id/trainingNetworkFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/gameFragment"
+        android:name="com.adoan.mindrover.GameFragment"
+        android:label="fragment_game"
+        tools:layout="@layout/fragment_game" >
+        <action
+            android:id="@+id/action_gameFragment_to_gameStarterFragment"
+            app:destination="@id/gameStarterFragment"
+            app:enterAnim="@anim/nav_default_enter_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/gameStarterFragment"
+        android:name="com.adoan.mindrover.GameStarterFragment"
+        android:label="fragment_game_starter"
+        tools:layout="@layout/fragment_game_starter" >
+        <action
+            android:id="@+id/action_gameStarterFragment_to_gameFragment"
+            app:destination="@id/gameFragment"
+            app:enterAnim="@android:anim/slide_in_left" />
+    </fragment>
+    <fragment
+        android:id="@+id/impedanceCheckerFragment"
+        android:name="com.adoan.mindrover.ImpedanceCheckerFragment"
+        android:label="fragment_impedance_checker"
+        tools:layout="@layout/fragment_impedance_checker" />
+</navigation>

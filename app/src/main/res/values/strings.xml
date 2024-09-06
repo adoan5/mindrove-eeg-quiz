@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">MindRove EEG Quiz</string>
+
+    <string name="hello_blank_fragment">Neural network is training</string>
+    <string name="connect_label">Connect</string>
+    <string name="eeg_label">EEG</string>
+    <string name="training_label">Training</string>
+    <string name="game_label">Game</string>
+    <string name="settings_label">Settings</string>
+    <string name="connection_label">Please connect the MindRove device \nvia Wifi</string>
+    <string name="connect_button_label">I\'m ready</string>
+    <string name="left_command">When the X appears,\ntilt your head to the LEFT!</string>
+    <string name="right_command">When the X appears,\ntilt your head to the RIGHT!</string>
+    <string name="clench_command">When the X appears,\nclench your teeth!</string>
+    <string name="rest_command">When the X appears,\njust rest!</string>
+    <string name="no_command"> </string>
+    <string name="train_home_label">This is the page to get data for tuning the Neural Network</string>
+    <string name="game_starter_label">Are you ready to start the game?</string>
+
+</resources>
